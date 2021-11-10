@@ -1,12 +1,19 @@
 {
-  "name": "node-http-server",
+  "name": "anprback",
   "version": "1.0.0",
-  "description": "Node.js example server starter project",
-  "main": "src/index.js",
+  "description": "backend for anpr",
+  "main": "src/app.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/app.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "0.24.0",
+    "cors": "2.8.5",
+    "dotenv": "10.0.0",
+    "express": "4.17.1",
+    "mongoose": "6.0.12",
+    "socket.io": "4.3.2"
+  },
   "devDependencies": {
     "nodemon": "1.18.4"
   },
